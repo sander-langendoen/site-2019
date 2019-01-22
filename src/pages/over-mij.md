@@ -8,11 +8,11 @@ title: Wie ben ik
 
 Ik realiseer voornamelijk de HTML, CSS en Javascript code van websites of online applicaties. Daarbij baseer ik mijn werk op ontwerpen van designers, of op ontwerpen van mijzelf. Ik heb dus ook eigen inbreng hoe de front-end van een applicatie precies functioneert. Ik geef daarom collega’s gevraagd en ongevraagd advies over de mogelijkheden (en beperkingen) op front-end gebied.
 
-### Wat ik doe
+### Wat ik doe?
 
 Mijn werk bestaat vaak uit uitdagingen, niet van die simpele recht-toe-recht-aan klusjes, de lat ligt hoog. Ik werk idealiter aan projecten in een multidisciplinair scrum team (scrum master, ontwerpers en andere ontwikkelaars) en komt zo tot spraakmakende oplossingen.
 
-### Ik kan best wel wat
+### Waar ben ik goed in?
 
 * Ik heb ruime ervaring met HTML, SCSS en Javascript
 * Ik heb kennis van en ervaring met een Javascript framework als React
@@ -31,4 +31,4 @@ Mijn werk bestaat vaak uit uitdagingen, niet van die simpele recht-toe-recht-aan
 * Ik heb een goede beheersing van de Nederlandse en Engelse taal in woord en geschrift en spreek goed Duits
 
 ### Tarief
-Voor mijn diensten betaal je een medior/senior freelance tarief
+Voor mijn diensten betaal je een medior/senior freelance tarief, afhankelijk van jouw opdracht
