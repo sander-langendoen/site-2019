@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://site-2019.netlify.com/* https://sanderlangendoen.nl/:splat 301!
