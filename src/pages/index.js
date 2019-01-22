@@ -9,39 +9,49 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <Layout>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-1">Freelance front-end voor jouw project</h1>
-            </div>
-            {posts
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  style={{ padding: '2rem 4rem 2rem 0rem' }}
-                  key={post.id}
-                >
-                  <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Lees verder →
-                    </Link>
-                  </p>
-                </div>
-              ))}
-          </div>
-        </section>
-      </Layout>
+        <Layout>
+
+            <section className="section">
+
+              <div className="container">
+
+                <h1 className="page-title page-title-home">Freelance front-end voor jouw project</h1>
+                <p className="page-content-intro page-content-intro-home">
+                    Ik realiseer de HTML, CSS en Javascript code van websites of online applicaties. 
+                    Ik ben creatief, en heb oog voor design.
+                </p>
+                <p className="page-content-intro page-content-intro-home">
+                    Je vindt hier meer <a href="/over-mij">over mij</a>, <a href="/wie-ben-jij">wie jij bent</a>, 
+                    en heb ook een <a href="/blog">blog</a> over front-end ontwikkeling. 
+                    Je kunt <a href="/contact">contact</a> met mij opnemen over jouw project.
+                </p>
+                {posts
+                  .map(({ node: post }) => (
+                    <div
+                      className="content"
+                      style={{ padding: '2rem 4rem 2rem 0rem' }}
+                      key={post.id}
+                    >
+                      <p>
+                        <Link className="has-text-primary" to={post.fields.slug}>
+                          {post.frontmatter.title}
+                        </Link>
+                        <span> &bull; </span>
+                        <small>{post.frontmatter.date}</small>
+                      </p>
+                      <p>
+                        {post.excerpt}
+                        <br />
+                        <br />
+                        <Link className="button is-small" to={post.fields.slug}>
+                          Lees verder →
+                        </Link>
+                      </p>
+                    </div>
+                  ))}
+              </div>
+            </section>
+        </Layout>
     )
   }
 }

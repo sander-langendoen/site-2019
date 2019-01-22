@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import homeicon from '../../img/home.png'
+
 const Navbar = class extends React.Component {
 
   componentDidMount() {
@@ -31,36 +33,39 @@ const Navbar = class extends React.Component {
   
     <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
 
-        <div className="container">
-        
-            <div className="navbar-brand">
+        <div className="navbar-brand">
 
-            {/* Hamburger menu */}
-                <div className="navbar-burger burger" data-target="navMenu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+        {/* Hamburger menu */}
+            <div className="navbar-burger burger" data-target="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
+        </div>
 
-            <div id="navMenu" className="navbar-menu">
+        <div id="navMenu" className="navbar-menu">
 
-                <div className="navbar-start has-text-centered">
+            <Link className="navbar-item" to="/">
+                <span className="icon">
+                    <img src={homeicon} alt="home icoon linkt naar homepage"/>
+                </span>
+            </Link>
 
-                    <Link className="navbar-item" to="/over-mij">
-                      Wie ben ik
-                    </Link>
-                    <Link className="navbar-item" to="/wie-ben-jij">
-                      Wie ben jij
-                    </Link>
-                    <Link className="navbar-item" to="/blog">
-                      Blog
-                    </Link>
-                    <Link className="navbar-item" to="/contact">
-                      Contact
-                    </Link>
-                </div>
-            </div>
+            <Link className="navbar-item" to="/over-mij">
+              Wie ben ik
+            </Link>
+
+            <Link className="navbar-item" to="/wie-ben-jij">
+              Wie ben jij
+            </Link>
+
+            <Link className="navbar-item" to="/blog">
+              Blog
+            </Link>
+
+            <Link className="navbar-item" to="/contact">
+              Contact
+            </Link>
         </div>
     </nav>
   )}

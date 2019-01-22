@@ -19,14 +19,15 @@ const Logo = class extends React.Component {
  	render() {
         return (
 
-	        <HeaderLogo title="Logo" maxWidth={logoMaxWidth}>
-	       		
-	       		<a href="/" title="Link naar homepage">
-		       		<img src={logo} alt="logo sanderlangendoen.nl" />
-		       	</a>
+        	<div className="header-logo">
+		        <HeaderLogo title="Logo" maxWidth={logoMaxWidth}>
+		       		
+		       		<a href="/" title="Link naar homepage">
+			       		<img src={logo} alt="logo sanderlangendoen.nl" />
+			       	</a>
 
-
-	        </HeaderLogo>
+		        </HeaderLogo>
+		    </div>
 
 		)
     }
