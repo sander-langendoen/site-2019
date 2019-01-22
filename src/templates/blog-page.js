@@ -18,7 +18,7 @@ export const BlogPageTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <BlogContent />
+
             </div>
           </div>
         </div>
