@@ -6,7 +6,7 @@ title: Wie ben ik
 
 ### Over mij
 
-Ik realiseer voornamelijk de HTML, CSS en Javascript code van websites of online applicaties. Daarbij baseer ik mijn werk op ontwerpen van designers, of op ontewerpen van mijzelf. Maar ik heb ook eigen inbreng hoe de front-end van een applicatie precies functioneert. Ik geef daarom collega’s gevraagd en ongevraagd advies over de mogelijkheden (en beperkingen) op front-end gebied.
+Ik realiseer voornamelijk de HTML, CSS en Javascript code van websites of online applicaties. Daarbij baseer ik mijn werk op ontwerpen van designers, of op ontwerpen van mijzelf. Ik heb dus ook eigen inbreng hoe de front-end van een applicatie precies functioneert. Ik geef daarom collega’s gevraagd en ongevraagd advies over de mogelijkheden (en beperkingen) op front-end gebied.
 
 ### Wat ik doe
 
