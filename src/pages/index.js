@@ -9,6 +9,8 @@ export default class IndexPage extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
+    console.log(posts)
+
     return (
         <Layout>
 
@@ -57,6 +59,7 @@ export default class IndexPage extends React.Component {
                 <div className="container">
                 {posts
                   .map(({ node: post }) => (
+
                     <article
                           className="content"
                           style={{ padding: '2rem 4rem 2rem 0rem' }}
@@ -68,7 +71,7 @@ export default class IndexPage extends React.Component {
                             </Link>
                         </h3>
                         <span> &bull; </span>
-                        <small>{post.frontmatter.date}</small>
+                        <small>{post.frontmatter.date} - {post.frontmatter.tags}</small>
                       <p>
                         {post.excerpt}
                         <br />
@@ -77,6 +80,7 @@ export default class IndexPage extends React.Component {
                           Lees verder →
                         </Link>
                       </p>
+                      
                     </article>
                   ))}
                     </div>
@@ -111,6 +115,7 @@ export const pageQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            tags
           }
         }
       }
