@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
 
             <section className="section section-intro">
 
-                <div className="columns">
+                <div className="columns"> 
                     <div className="column">
                         <h1 className="page-title page-title-home">Freelance front-end voor jouw project</h1>
                         <p className="page-content-intro page-content-intro-home">
