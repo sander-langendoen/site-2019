@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Typewrite from '../components/Typewrite'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -17,18 +18,38 @@ export default class IndexPage extends React.Component {
                     <div className="column">
                         <h1 className="page-title page-title-home">Freelance front-end voor jouw project</h1>
                         <p className="page-content-intro page-content-intro-home">
-                            Ik realiseer de HTML, CSS en Javascript code van websites of online applicaties. 
-                            Ik ben creatief, en heb oog voor design.
+                            Ik realiseer de HTML, CSS, Javascript (en soms PHP code) van websites of online applicaties. 
+                            Ik ben creatief, en heb oog voor design. Hoe mensen mij verder noemen?
                         </p>
                         <p className="page-content-intro page-content-intro-home">
-                            Je vindt hier meer <a href="/over-mij">over mij</a>.<br/>
-                            Hier lees je meer over <a href="/wie-ben-jij">wie jij bent</a>.<br/>
-                            Je kunt <a href="/contact">contact</a> met mij opnemen over jouw project.<br/>
+                            Je vindt hier meer &nbsp;
+                            <Link to="/over-mij">
+                              over mij
+                            </Link>.<br/>
+                            Hier lees je meer over &nbsp;
+                            <Link to="/wie-ben-jij">
+                              jezelf
+                            </Link>.<br/>
                             <br/>
-                            Ik heb voor ontwikkelaars ook een <a href="/blog">blog</a> over front-end ontwikkeling.<br/>
+                            Ik heb voor ontwikkelaars ook een &nbsp;
+                            <Link to="/blog">
+                              blog
+                            </Link>&nbsp; over front-end ontwikkeling.<br/>
+                            <br/>
+                            Je kunt contact met mij opnemen over jouw project. We zouden perfect voor elkaar zijn?<br/><br/>
+                            <Link className="btn-primary" to="/contact">
+                              Contact
+                            </Link>
                         </p>
-                        </div>
+                    </div>
+                    <div className="column">
+                        <Typewrite />
+                    </div>
                 </div>
+            </section>
+
+            <section className="section section-projects">
+
             </section>
 
             <section className="section section-articles">

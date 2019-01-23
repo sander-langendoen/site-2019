@@ -7,40 +7,6 @@ $color-gray: #f9f9f9
 $padding: 1rem
 $font-family: "Raleway", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
-// =kleefaanGradient 
-//   background: linear-gradient(180deg, $color-white, #f1edec, $color-yellow, #f1edec) no-repeat
-//   background-size: 100%
-
-  // -webkit-animation: kleefaanGradient 40s ease infinite
-  // -moz-animation: kleefaanGradient 40s ease infinite
-  // animation: kleefaanGradient 40s ease infinite
-
-  // -webkit-keyframes kleefaanGradient 
-  //     0% 
-  //       background-position: 0% 50%
-  //     50% 
-  //       background-position: 100% 50%
-  //     100% 
-  //       background-position: 0% 50%
-  
-  // @-moz-keyframes kleefaanGradient 
-  //     0% 
-  //       background-position: 0% 50%
-  //     50% 
-  //       background-position: 100% 50%
-  //     100% 
-  //       background-position: 0% 50%
-  
-  // @keyframes kleefaanGradient 
-  //     0%  
-  //       background-position: 0% 50%
-  //     50% 
-  //       background-position: 100% 50%
-  //     100% 
-  //       background-position: 0% 50%
-  
-
-
 body 
     font-family: $font-family
     color: $body-color
@@ -51,8 +17,9 @@ body
     width: 100vw
     margin: 0
     height: 100vh
-    background: linear-gradient(90deg, $color-white, #f1edec) no-repeat, linear-gradient(180deg, $color-white, #f1edec) no-repeat
-    // +kleefaanGradient()
+    background: linear-gradient(90deg, $color-white, #f1edec) no-repeat, linear-gradient(180deg, $color-white, #f1edec)
+    background-repeat: repeat
+    background-size: cover
 
 header
     .container 
@@ -88,29 +55,10 @@ nav
         a:not(:last-child)
             padding-right: 2rem
 
-.testwrap 
-    position: relative
-
-    .testone
-        position: absolute
-        width: 50%
-        z-index: -1
-
-    .testtwo
-        position: absolute
-        z-index: -1
-        height: 100vh
-        width: 50%
-        left: 50%
-
-
 main 
-    margin: 2rem 4rem
-    background-color: rgba($color-white, 1)
-    max-width: 50%
+    margin: 3rem 4rem 2rem
 
 section.section-intro
-    border-bottom: 1px solid #fff
 
     .columns
         display: flex
@@ -119,7 +67,15 @@ section.section-intro
             flex: 1
             padding: 2rem
 
-    
+            &:first-child
+                background-color: $color-white
+
+            &:last-child
+                display: flex
+                align-items: center
+                justify-content: center
+                font-size: 1.5rem
+
 
 h1, h2, h3, h4, h5, h6
     line-height: 100%
@@ -137,9 +93,23 @@ h3
 h4, h5, h6 
     font-size: 1.2rem
 
+h1.page-title
+    &-home 
+        font-size: 1.5rem
+
 a 
     font-weight: bold
     color: $body-color
+
+a.btn-primary 
+    border: 1px solid black
+    padding: 10px 20px
+    text-decoration: none
+    transition: background 0.35s ease
+    font-weight: 500
+
+    &:hover 
+        background-color: $color-gray
 
 .container
     padding: 0 1rem
@@ -161,20 +131,3 @@ a
         padding: 0 2rem 1rem 0
         margin-bottom: 1.5rem
         margin-top: 0
-
-// Helper Classes
-.full-width-image-container
-    width: 100vw
-    height: 400px
-    position: relative
-    left: 50%
-    right: 50%
-    margin: 5em -50vw
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
-
-.margin-top-0
-    margin-top: 0 !important
