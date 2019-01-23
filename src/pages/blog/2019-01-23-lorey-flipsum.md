@@ -1,5 +1,5 @@
 ---
-templateKey: project
+templateKey: blog-post
 title: Lorey flipsum
 date: 2019-01-23T11:11:33.437Z
 description: Testdecsription
