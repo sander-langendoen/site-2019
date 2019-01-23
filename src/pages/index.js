@@ -11,6 +11,9 @@ export default class IndexPage extends React.Component {
 
     return (
         <Layout>
+            <section className="section section-intro">
+                Deze website wordt momenteel aan gewerkt.<br/><br/><br/>
+            </section>
 
             <section className="section section-intro">
 
