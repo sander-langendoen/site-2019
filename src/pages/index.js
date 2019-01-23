@@ -63,8 +63,10 @@ export default class IndexPage extends React.Component {
                               {post.frontmatter.title}
                             </Link>
                         </h3>
-                        <span> &bull; </span>
+                        
                         <small>{post.frontmatter.date}</small>
+                        <span> &bull; </span>
+                        <small>{post.frontmatter.tags}</small>
                       <p>
                         {post.excerpt}
                         <br />
@@ -94,7 +96,13 @@ export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+      filter: { frontmatter: { 
+        templateKey: { eq: "blog-post" } 
+        tags: {
+          nin: ["front-end ontwikkeling, probeer"]
+        }
+    }}
+    
     ) {
       edges {
         node {
@@ -107,6 +115,7 @@ export const pageQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            tags
           }
         }
       }
