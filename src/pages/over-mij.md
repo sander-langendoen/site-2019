@@ -22,7 +22,7 @@ Mijn werk bestaat vaak uit uitdagingen, niet van die simpele recht-toe-recht-aan
 * Ik heb jarenlange ervaring met WordPress en ben daarom bekend met PHP
 * Ik kan (WordPress) templates van scratch opzetten
 * Ik ben creatief en kan goed overweg met Adobe Photoshop, Illustrator, Experience Design en Sketch
-* Ik heb oog voor detail, feeling met design en gevoel voor het creëren van een goede user experience
+* Ik heb oog voor detail, feeling met design en voor het creëren van een goede user experience
 * Ik ontwikkel mezelf iedere dag in webrichtlijnen (accessability)
 * Ik ben goed op de hoogte van de laatste ontwikkelingen in mijn vakgebied
 * Ik beschik over goede communicatieve vaardigheden
