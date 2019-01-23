@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Wie ben ik
 ---
-## Front-end developer met oog voor design 
+## Front-end developer met oog voor design
 
 ### Over mij
 
@@ -29,6 +29,3 @@ Mijn werk bestaat vaak uit uitdagingen, niet van die simpele recht-toe-recht-aan
 * Ik beschik over goede sociale vaardigheden
 * Ik heb een HBO diploma op zak en HBO denkniveau
 * Ik heb een goede beheersing van de Nederlandse en Engelse taal in woord en geschrift en spreek goed Duits
-
-### Tarief
-Voor mijn diensten betaal je een medior/senior freelance tarief, afhankelijk van jouw opdracht
