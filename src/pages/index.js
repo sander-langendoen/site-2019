@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Results from '../components/Results'
+import ProfilePic from '../components/Global/ProfilePic'
 // import Typewrite from '../components/Typewrite'
 
 
@@ -20,7 +22,7 @@ export default class IndexPage extends React.Component {
 
                 <div className="columns"> 
                     <div className="column">
-                        <h1 className="page-title page-title-home">Freelance front-end voor jouw project</h1>
+                        <h1 className="page-title page-title-home">Freelance (UI) front-end voor jouw project</h1>
                         <p className="page-content-intro page-content-intro-home">
                             Ik realiseer de HTML, CSS, Javascript (en soms PHP code) van websites of online applicaties. 
                             Ik ben creatief, en heb oog voor design. Hoe mensen mij verder noemen?
@@ -40,14 +42,14 @@ export default class IndexPage extends React.Component {
                               blog
                             </Link>&nbsp; over front-end ontwikkeling.<br/>
                             <br/>
-                            Je kunt contact met mij opnemen over jouw project. We zouden perfect voor elkaar zijn?<br/><br/>
+                            Je kunt contact met mij opnemen over jouw project. We zouden perfect voor elkaar kunnen zijn?<br/><br/>
                             <Link className="btn-primary" to="/contact">
                               Contact
                             </Link>
                         </p>
                     </div>
                     <div className="column">
-                       
+                        <ProfilePic />
                     </div>
                 </div>
             </section>
@@ -82,6 +84,8 @@ export default class IndexPage extends React.Component {
                     </article>
                   ))}
                     </div>
+
+                    <Results />
             </section>
         </Layout>
     )
