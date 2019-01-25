@@ -56,32 +56,39 @@ export default class IndexPage extends React.Component {
             <section className="section section-articles">
 
                 <div className="container">
-                    {posts
-                      .map(({ node: post }) => (
-                        <article
-                              className="content"
-                              style={{ padding: '2rem 4rem 2rem 0rem' }}
-                              key={post.id}
-                            >
-                            <h3>
-                                <Link className="has-text-primary" to={post.fields.slug}>
-                                  {post.frontmatter.title}
+                    <div className="article-list">
+                        {posts
+                          .map(({ node: post }) => (
+                            <article
+                                  className="content"
+                                  style={{ padding: '2rem 4rem 2rem 0rem' }}
+                                  key={post.id}
+                                >
+                                <h3>
+                                    <Link to={post.fields.slug}>
+                                      {post.frontmatter.title}
+                                    </Link>
+                                </h3>
+                                
+                                <small>{post.frontmatter.date}</small>
+
+                                <span> &bull; </span>
+
+                                <Link to="/tags/frond-end-ontwikkeling">
+                                    <small>{post.frontmatter.tags}</small>
                                 </Link>
-                            </h3>
-                            
-                            <small>{post.frontmatter.date}</small>
-                            <span> &bull; </span>
-                            <small>{post.frontmatter.tags}</small>
-                          <p>
-                            {post.excerpt}
-                            <br />
-                            <br />
-                            <Link className="button is-small" to={post.fields.slug}>
-                              Lees verder →
-                            </Link>
-                          </p>
-                        </article>
-                    ))}
+
+                                <p>
+                                    {post.excerpt}
+                                <br />
+                                <br />
+                                <Link className="btn-primary" to={post.fields.slug}>
+                                  Lees verder <span className="btn-arrow">→</span>
+                                </Link>
+                                </p>
+                            </article>
+                        ))}
+                    </div>
                 </div>
 
             </section>
