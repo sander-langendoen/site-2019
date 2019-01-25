@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Results from '../components/Results'
 import ProfilePic from '../components/Global/ProfilePic'
 // import Typewrite from '../components/Typewrite'
 
@@ -57,35 +56,34 @@ export default class IndexPage extends React.Component {
             <section className="section section-articles">
 
                 <div className="container">
-                {posts
-                  .map(({ node: post }) => (
-                    <article
-                          className="content"
-                          style={{ padding: '2rem 4rem 2rem 0rem' }}
-                          key={post.id}
-                        >
-                        <h3>
-                            <Link className="has-text-primary" to={post.fields.slug}>
-                              {post.frontmatter.title}
+                    {posts
+                      .map(({ node: post }) => (
+                        <article
+                              className="content"
+                              style={{ padding: '2rem 4rem 2rem 0rem' }}
+                              key={post.id}
+                            >
+                            <h3>
+                                <Link className="has-text-primary" to={post.fields.slug}>
+                                  {post.frontmatter.title}
+                                </Link>
+                            </h3>
+                            
+                            <small>{post.frontmatter.date}</small>
+                            <span> &bull; </span>
+                            <small>{post.frontmatter.tags}</small>
+                          <p>
+                            {post.excerpt}
+                            <br />
+                            <br />
+                            <Link className="button is-small" to={post.fields.slug}>
+                              Lees verder →
                             </Link>
-                        </h3>
-                        
-                        <small>{post.frontmatter.date}</small>
-                        <span> &bull; </span>
-                        <small>{post.frontmatter.tags}</small>
-                      <p>
-                        {post.excerpt}
-                        <br />
-                        <br />
-                        <Link className="button is-small" to={post.fields.slug}>
-                          Lees verder →
-                        </Link>
-                      </p>
-                    </article>
-                  ))}
-                    </div>
+                          </p>
+                        </article>
+                    ))}
+                </div>
 
-                  
             </section>
         </Layout>
     )
