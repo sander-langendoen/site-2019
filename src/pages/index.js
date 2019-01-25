@@ -18,7 +18,11 @@ export default class IndexPage extends React.Component {
     return (
         <Layout>
             <section className="section section-intro">
-                Deze website wordt momenteel aan gewerkt.<br/><br/><br/>
+                <div className="container">
+                    <br/><br/><br/>
+                    Deze website wordt momenteel aan gewerkt.
+                    <br/><br/><br/>
+                </div>
             </section>
 
             <section className="section section-intro">
@@ -81,7 +85,7 @@ export default class IndexPage extends React.Component {
                                 Aruba en Curacao.
                             </p>
                             
-                            <p> Denk aan websites, social intranets of andere digitale oplossingen zoals 
+                            <p style={{display: "none"}}> Denk aan websites, social intranets of andere digitale oplossingen zoals 
                                 het inbouwen van extra toegankelijksheidseisen voor de overheid zoals Readspeaker. Ook heb 
                                 ik voor het development team een workshop Flexbox mogen organiseren. Ik heb ook de LESS-architectuur 
                                 voor hun sociale intranetten opnieuw mogen opzetten. Hiernaast heb ik ook de SASS-structuren voor 
