@@ -8,7 +8,7 @@ class Results extends Component {
 
         this.state = {
           recipes: [],
-          dataRoute: "http://dietist-elinezuiderwijk.nl/wp-json/wp/v2/posts?_embed&categories=8&per_page=24" // only output recipes with category 'recept' = category #8
+          dataRoute: "https://dietist-elinezuiderwijk.nl/wp-json/wp/v2/posts?_embed&categories=8&per_page=24" // only output recipes with category 'recept' = category #8
         }
     }
 
