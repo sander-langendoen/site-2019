@@ -86,9 +86,26 @@ section.section-intro
                     img
                         width: 100%
 
+section.section-articles,
+section.section-projects
+    
+    .article-list
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        
+        article.content 
+            width: 25%
+            background-color: $color-white
+            padding: 1.7rem
+
+            h3
+                margin-top: 0
+        
+
 
 h1, h2, h3, h4, h5, h6
-    line-height: 100%
+    line-height: 120%
     margin-bottom: 1rem
     font-family: $heading-font
 
