@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Sander Langendoen, freelance front-end developer.',
+    title: 'Sander Langendoen, freelance front-end (UI) developer.',
     description: 'De website van Sander Langendoen, freelance front-end developer.',
   },
   plugins: [

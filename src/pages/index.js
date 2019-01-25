@@ -6,7 +6,7 @@ import ProfilePic from '../components/Global/ProfilePic'
 import logoPCL from '../img/logo-postcodeloterij.jpg'
 import logoMZ from '../img/logo-menzis.jpg'
 import logoAZ from '../img/logo-anderzorg.jpg'
-import logoSIM from '../img/logo-sim.jpg'
+import logoSIM from '../img/logo-SIM.jpg'
 // import Typewrite from '../components/Typewrite'
 
 
