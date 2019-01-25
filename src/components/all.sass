@@ -113,9 +113,10 @@ section.section-projects
             background-color: $color-white
             padding: 1.7rem
             margin-top: 1rem
-
-            &:first-child
-                margin-top: 0
+            @media all and (max-width: 959px)
+                
+                &:first-child
+                    margin-top: 0
 
             h3
                 margin-top: 0
@@ -204,3 +205,6 @@ input
 
 textarea
     min-height: 200px
+
+.hidden 
+    display: none

@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Sander Langendoen, freelance front-end (UI) developer.',
     description: 'De website van Sander Langendoen, freelance front-end developer.',
+    googlesearchconsole: 'oe5xELiFL6GpksDbqvpyWPJkiZt5Fv78hG6JcnaKQrg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

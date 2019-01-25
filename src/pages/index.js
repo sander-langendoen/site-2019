@@ -41,16 +41,18 @@ export default class IndexPage extends React.Component {
                                 <Link to="/over-mij">
                                   over mij
                                 </Link>.<br/>
-                                Hier lees je meer over &nbsp;
+                                <span className="hidden">Hier lees je meer over &nbsp;
                                 <Link to="/wie-ben-jij">
                                   jezelf
                                 </Link>.<br/>
-                                <br/>
+                                <br/></span>
+                                <span className="hidden">
                                 Ik heb voor ontwikkelaars ook een &nbsp;
                                 <Link to="/blog">
                                   blog
-                                </Link>&nbsp; over front-end ontwikkeling.<br/>
+                                </Link>&nbsp; over front-end ontwikkeling.</span><br/>
                                 <br/>
+                                
                                 Je kunt contact met mij opnemen over jouw project. We zouden perfect voor elkaar kunnen zijn?<br/><br/>
                                 <Link className="btn-primary" to="/contact">
                                   Contact
