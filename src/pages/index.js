@@ -56,6 +56,8 @@ export default class IndexPage extends React.Component {
             <section className="section section-articles">
 
                 <div className="container">
+                    <h2 className="section-title">Mijn laatste blog-posts</h2>
+
                     <div className="article-list">
                         {posts
                           .map(({ node: post }) => (

@@ -7,6 +7,7 @@ $color-green: #a6c9b9
 $color-yellow: #fcdd91
 $color-gray: #f9f9f9
 $padding: 1rem
+$transition-default: all 0.35s ease
 $font-family: "Raleway", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 $heading-font: "Work Sans", "Raleway", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
@@ -115,7 +116,7 @@ a.btn-primary
     border: 1px solid black
     padding: 10px 20px
     text-decoration: none
-    transition: all 0.35s ease
+    transition: $transition-default
     font-weight: 500
 
     &:hover 
@@ -123,7 +124,8 @@ a.btn-primary
 
     &:hover .btn-arrow
         margin-left: 1rem
-        
+        transition: $transition-default
+
 
 .container
     padding: 0 1rem
