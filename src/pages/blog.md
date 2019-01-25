@@ -1,6 +1,7 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 title: Blog
 ---
 ## Blog
-Ben je geïntere
+
+Work in progress
