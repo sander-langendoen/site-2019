@@ -85,7 +85,7 @@ export default class IndexPage extends React.Component {
                   ))}
                     </div>
 
-                    <Results />
+                  
             </section>
         </Layout>
     )
