@@ -73,9 +73,6 @@ section.section-intro
         display: flex
         flex-direction: column
 
-        @media all and (min-width: 960px)
-            flex-direction: row
-
         .column
             padding: 1rem
 
@@ -99,6 +96,10 @@ section.section-intro
                     img
                         width: 100%
 
+    .columns
+        @media all and (min-width: 960px)
+            flex-direction: row
+
 section.section-articles,
 section.section-projects
     margin-top: 60px
@@ -106,8 +107,7 @@ section.section-projects
     .article-list
         display: flex
         flex-direction: column
-        flex-wrap: wrap
-        justify-content: space-between
+        
         
         article.content 
             background-color: $color-white
@@ -122,10 +122,14 @@ section.section-projects
                 min-width: 69%
                 min-height: 90px
 
-        @media all and (min-width: 960px)
+    
+    @media all and (min-width: 960px)
+        .article-list
             flex-direction: row
+            flex-wrap: wrap
+            justify-content: space-between
 
-            article.content 
+        article.content 
             width: 25%
 
 
