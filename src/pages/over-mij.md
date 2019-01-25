@@ -25,6 +25,7 @@ Mijn werk bestaat vaak uit uitdagingen, niet van die simpele recht-toe-recht-aan
 * Ik heb oog voor detail, en feeling met design voor het creëren van een goede user experience
 * Ik ontwikkel mezelf iedere dag in webrichtlijnen (accessability)
 * Ik ben goed op de hoogte van de laatste ontwikkelingen in mijn vakgebied
+* Ik bezoek regelmatig conferenties en volg workshops om optimaal op de hoogte te blijven
 * Ik beschik over goede communicatieve vaardigheden
 * Ik beschik over goede sociale vaardigheden
 * Ik heb een HBO diploma op zak en HBO denkniveau
