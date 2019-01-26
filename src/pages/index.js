@@ -17,13 +17,6 @@ export default class IndexPage extends React.Component {
 
     return (
         <Layout>
-            <section className="section section-intro">
-                <div className="container">
-                    <br/><br/><br/>
-                    Deze website wordt momenteel aan gewerkt.
-                    <br/><br/><br/>
-                </div>
-            </section>
 
             <section className="section section-intro">
 
@@ -52,7 +45,7 @@ export default class IndexPage extends React.Component {
                                   blog
                                 </Link>&nbsp; over front-end ontwikkeling.</span><br/>
                                 <br/>
-                                
+
                                 Je kunt contact met mij opnemen over jouw project. We zouden perfect voor elkaar kunnen zijn?<br/><br/>
                                 <Link className="btn-primary" to="/contact">
                                   Contact
