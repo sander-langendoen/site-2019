@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Sander Langendoen, freelance front-end (UI) developer.',
-    description: 'De website van Sander Langendoen, freelance front-end developer.',
+    title: 'Sander Langendoen, freelance front-end developer (UI).',
+    description: 'De website van Sander Langendoen, freelance front-end developer. Bekijk mijn laatste projecten hier.',
+    siteUrl: 'https://sanderlangendoen.nl',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
