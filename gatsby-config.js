@@ -8,6 +8,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     {
+      resolve: 'gatsby-plugin-sitemap',
       options: {
         exclude: ['/products', '/about', '/contact/examples', '/contact/file-upload', '/contact/thanks'],
       },
