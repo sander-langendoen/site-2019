@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: landings-page-one
 title: Tarieven freelance front-end ontwikkelaars
 ---
 ## Freelance front-end developer tarief
