@@ -14,18 +14,14 @@ Uiteraard scheelt het ook of hoeveel ervaring je hebt. Ik kom bij collega's de v
 
 ### Wat is het gemiddelde uurtarief van een freelance front-end developer
 
-Uurtarief junior front-end developer
-0 - 3 jaar werkervaring
+Uurtarief junior front-end developer (0 - 3 jaar werkervaring)\
 €40 - €60 per uur ex. btw
 
-Uurtarief medior front-end developer
-3 - 5 jaar werkervaring
+Uurtarief medior front-end developer (3 - 5 jaar werkervaring)\
 €60 - €75 per uur ex. btw
 
-Uurtarief senior front-end developer
-5 - 10 jaar werkervaring
+Uurtarief senior front-end developer (5 - 10 jaar werkervaring)\
 €70 - €95 per uur ex. btw
 
-Uurtarief front-end architect\
-+ 10 jaar werkervaring
+Uurtarief front-end architect (+ 10 jaar werkervaring)\
 €95 - €130 per uur excl. btw
