@@ -21,6 +21,7 @@ Mijn werk bestaat vaak uit uitdagingen, niet van die simpele recht-toe-recht-aan
 * Ik heb ruime ervaring met de laatste HTML standaarden
 * Ik heb jarenlange ervaring met WordPress en ben daarom bekend met PHP
 * Ik kan (WordPress) templates van scratch opzetten
+* Ervaring met en kennis van ontwikkelingstools als Git, Gulp, Babel, Webpack, NPM en werken met de Command Terminal.
 * Ik ben creatief en kan goed overweg met Adobe Photoshop, Illustrator, Experience Design en Sketch
 * Ik heb oog voor detail, en feeling met design voor het creëren van een goede user experience
 * Ik ontwikkel mezelf iedere dag in webrichtlijnen (accessability)
