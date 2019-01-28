@@ -36,6 +36,13 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/otarieven-freelance-frontend-ontwikkelaar.md"
+        label: "Tarieven freelance front-end ontwikkelaars"
+        name: "tarieven-freelance-frontend-ontwikkelaar"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/blog.md"
         label: "Blog"
         name: "blog"
