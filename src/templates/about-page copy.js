@@ -57,7 +57,7 @@ LandingsPageOne.propTypes = {
 export default LandingsPageOne
 
 export const landingsPageOneQuery = graphql`
-  query LandingsPageO1($id: String!) {
+  query LandingsPageOne($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
