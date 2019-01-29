@@ -3,11 +3,17 @@ templateKey: blog-post
 title: Ik doe ook front-end
 date: 2019-01-22T11:20:27.615Z
 description: >-
-  Nadat ik kennis heb gemaakt met een Poolse collega bij het koffiezetapparaat,
-  bevliegt mij weer eens een terugkerend vraagstuk. Lees mijn hele blog hier.
+  Ik zie front-end development als een specifiek vakgebied, waar je bepaalde
+  skills voor nodig hebt. Terwijl ik teruglopend naar mijn plek hem nog eens
+  profileer, vraag ik mezelf af; wat voor type front-end developer ben ik zelf
+  eigenlijk?
 tags:
   - frond-end ontwikkeling
 ---
+_Onderstaande _[_blog schreef ik voor Fronteers_](https://fronteers.nl/blog/2018/12/ik-doe-ook-front-end)_ en werd eind december 2019 geplaatst in hun _[_adventsblog_](https://fronteers.nl/blog/categorieen/adventskalender)_. _
+
+<hr>
+
 Nadat ik kennis heb gemaakt met een Poolse collega bij het koffiezetapparaat, bevliegt mij weer eens een terugkerend vraagstuk. Mijn Poolse collega blijkt een back-end developer te zijn die in een geheel Pools team werkt voor mijn nieuwe opdrachtgever. Terwijl ik tijdens het tappen van mijn espresso uitleg dat ik tijdelijk wordt ingehuurd als front-end developer, reageert hij direct “Yes, I do front-end too”. Ik dwaal direct af, nadenkend over zijn skills, gezien hij aangeeft een back-end developer te zijn. Ik zie front-end development als een specifiek vakgebied, waar je bepaalde skills voor nodig hebt. Terwijl ik teruglopend naar mijn plek hem nog eens profileer, vraag ik mezelf af; wat voor type front-end developer ben ik zelf eigenlijk?
 
 ## Onzekerheid
