@@ -10,7 +10,7 @@ description: >-
 tags:
   - frond-end ontwikkeling
 ---
-_Onderstaande _[_blog schreef ik voor Fronteers_](https://fronteers.nl/blog/2018/12/ik-doe-ook-front-end)_ en werd eind december 2019 geplaatst in hun _[_adventsblog_](https://fronteers.nl/blog/categorieen/adventskalender)_. _
+_Onderstaande blog schreef ik voor Fronteers en werd eind december 2019 geplaatst in hun adventsblog. _
 
 <hr>
 
@@ -45,3 +45,7 @@ Aan het eind van de dag zal het project worden opgeleverd. Ik ben er van overtui
 ![Voorbeeldfoto slechte styling Ogone betaling ](/img/ogone-betaling-voorbeeld.png "Voorbeeld Ogone betaling")
 
 Je snapt vast wat ik bedoel. Er zit niet eens styling op. Verder staat er dan wel een Norton logo bij, maar dan nog oogt het bij mij nog steeds een beetje ‘unsecure’. Het heeft wat mij betreft meer een beetje de stijl van van een oplichter, die me een email stuurt om mij in te laten loggen bij mijn bank. Ik ben er dan ook echt van overtuigd dat een specialist als een front-end developer wel degelijk een andere denkwijze heeft als andere specialisten.
+
+<hr>
+
+De originele blogpost op Fronteers: <https://fronteers.nl/blog/2018/12/ik-doe-ook-front-end>
