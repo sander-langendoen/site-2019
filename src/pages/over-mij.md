@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Wie ben ik
 ---
-## Front-end developer met oog voor design
+## Freelance front-end developer met oog voor design
 
 ### Over mij
 
