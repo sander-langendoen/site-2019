@@ -22,7 +22,7 @@ const TemplateWrapper = ({ children }) => (
     render={data => (
       <div>
         <Helmet>
-          <html lang="en" />
+          <html lang="nl" />
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />
           <meta name="google-site-verification" content="oe5xELiFL6GpksDbqvpyWPJkiZt5Fv78hG6JcnaKQrg" />
