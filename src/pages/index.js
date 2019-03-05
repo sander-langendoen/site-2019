@@ -7,6 +7,7 @@ import logoPCL from '../img/logo-postcodeloterij.jpg'
 import logoMZ from '../img/logo-menzis.jpg'
 import logoAZ from '../img/logo-anderzorg.jpg'
 import logoSIM from '../img/logo-SIM.jpg'
+import logoKubion from '../img/logo-kubion.jpg'
 // import Typewrite from '../components/Typewrite'
 
 
@@ -70,6 +71,24 @@ export default class IndexPage extends React.Component {
                               className="content"
                               style={{ backgroundColor: '#fff' }}
                             >
+                            <h3 style={{float: "left"}}>Kubion</h3>
+                            <img src={logoKubion} alt="logo Kubion" style={{float: "left", paddingLeft: "10px", maxWidth: "65px"}} />
+
+                            <p style={{clear: "both"}}>
+                                Bij Kubion werk ik aan de front-end van een website voor een Zeeuwse woningstichting. 
+                                Door middel van op een Foundation grid gebaseerd template en een custom design ben ik in deze opdracht 
+                                voornamelijk veel bezig met de CSS/SASS-structuur.
+                            </p>
+                            
+                            <p><strong>Opdrachtgever</strong><br/>Kubion</p>
+                            
+                            <p><strong>Keywords:</strong><br/> SASS, CSS3, HTML5, Foundation</p>
+                        </article>
+
+                        <article
+                              className="content"
+                              style={{ backgroundColor: '#fff' }}
+                            >
                             <h3 style={{float: "left"}}>SIMGroep</h3>
                             <img src={logoSIM} alt="logo SIMgroep" style={{float: "left", paddingLeft: "10px", maxWidth: "65px"}} />
 
@@ -88,7 +107,7 @@ export default class IndexPage extends React.Component {
                             </p>
                             <p><strong>Opdrachtgever</strong><br/>SIMGroep</p>
                             
-                            <p><strong>Keywords:</strong><br/> PHP, HTML5, Javascript, SASS, CSS3, Flexbox, Javascript, jQuery, webrichtlijnen</p>
+                            <p><strong>Keywords:</strong><br/> PHP, HTML5, Javascript, SASS, CSS3, Flexbox, Javascript, jQuery, WCAG</p>
                         </article>
 
                         <article
