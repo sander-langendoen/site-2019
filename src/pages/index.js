@@ -121,7 +121,7 @@ export default class IndexPage extends React.Component {
                                 Voor award winning digital agency The Valley in Amsterdam werkte ik 
                                 voor klanten als de Nationale Postcodeloterij, BankGiro Loterij en 
                                 de Vriendenloterij. De werkzaamheden betroffen het opzetten van Landingspages 
-                                en campagne websites voor verschillende online campagnes.
+                                en campagne websites voor verschillende online campagnes. Ook heb ik hier campagnes geanimeerd met de Greensock library.
                             </p>
                             
                             <p><strong>Opdrachtgever</strong><br/>The Valley</p>
