@@ -35,7 +35,7 @@ export default class IndexPage extends React.Component {
                                 <Link to="/over-mij">
                                   over mij
                                 </Link>.<br/>
-                                <span className="hidden">Hier lees je meer over &nbsp;
+                                Hier lees je meer over &nbsp;
                                 <Link to="/wie-ben-jij">
                                   jezelf
                                 </Link>.<br/>
