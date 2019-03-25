@@ -55,7 +55,7 @@ const Navbar = class extends React.Component {
               Wie ben ik
             </Link>
 
-            <Link className="navbar-item hidden" to="/wie-ben-jij">
+            <Link className="navbar-item" to="/wie-ben-jij">
               Wie ben jij
             </Link>
 
