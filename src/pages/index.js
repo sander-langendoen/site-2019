@@ -39,7 +39,7 @@ export default class IndexPage extends React.Component {
                                 <Link to="/wie-ben-jij">
                                   jezelf
                                 </Link>.<br/>
-                                <br/></span>
+                                <br/>
                                 <span className="hidden">
                                 Ik heb voor ontwikkelaars ook een &nbsp;
                                 <Link to="/blog">
