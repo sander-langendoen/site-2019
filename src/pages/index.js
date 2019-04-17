@@ -75,9 +75,9 @@ export default class IndexPage extends React.Component {
                             <img src={logoKubion} alt="logo Kubion" style={{float: "left", paddingLeft: "10px", maxWidth: "65px"}} />
 
                             <p style={{clear: "both"}}>
-                                Bij Kubion werk ik aan de front-end van een website voor een Zeeuwse woningstichting. 
+                                Bij Kubion werkte ik aan de front-end van websites voor grote woningstichtingen. 
                                 Door middel van op een Foundation grid gebaseerd template en een custom design ben ik in deze opdracht 
-                                voornamelijk veel bezig met de CSS/SASS-structuur.
+                                voornamelijk veel bezig geweest met de CSS/SASS-structuur.
                             </p>
                             
                             <p><strong>Opdrachtgever</strong><br/>Kubion</p>
