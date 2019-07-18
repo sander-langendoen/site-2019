@@ -20,6 +20,10 @@ Dit deed ik o.a. voor:
 
 [SIMGroep](https://www.simgroep.nl/over-sim)
 
+[Kubion](https://www.kubion.nl/)
+
+[Scorius](https://www.scorius.nl/)
+
 ## Ondernemers
 
 Je bent een ondernemer en bent op zoek naar een beschikbare front-end developer.

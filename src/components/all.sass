@@ -132,7 +132,7 @@ section.section-projects
         .article-list
             flex-direction: row
             flex-wrap: wrap
-            justify-content: space-between
+            justify-content: space-evenly
 
         article.content 
             width: 25%
@@ -210,6 +210,8 @@ img
 
 input, textarea
     min-width: 200px
+    @media all and (min-width: 680px)
+        min-width: 650px
 
 input
     min-height: 25px
