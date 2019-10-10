@@ -9,6 +9,7 @@ import logoAZ from '../img/logo-anderzorg.jpg'
 import logoSIM from '../img/logo-SIM.jpg'
 import logoKubion from '../img/logo-kubion.jpg'
 import logoScorius from '../img/logo-scorius.png'
+import logoWpg from '../img/logo-wpg.jpg'
 // import Typewrite from '../components/Typewrite'
 
 
@@ -71,34 +72,16 @@ export default class IndexPage extends React.Component {
                 className="content"
                 style={{ backgroundColor: '#fff' }}
               >
-                <h3 style={{ float: "left" }}>Scorius</h3>
-                <img src={logoScorius} alt="logo Kubion" style={{ float: "left", paddingLeft: "10px", maxWidth: "65px" }} />
+                <h3 style={{ float: "left" }}>WPG Media</h3>
+                <img src={logoWpg} alt="logo WPG Media" style={{ float: "left", paddingLeft: "10px", maxWidth: "65px" }} />
 
                 <p style={{ clear: "both" }}>
-                  Bij Scorius ben ik bezig met het redesign, refactoren en het themen van een Angular 8 webapplicatie t.b.v. een performance tool.
+                  Bij WPG uitgevers werk ik aan de front-end voor diverse websites van bijv. de merken Psychologie Magazine, Vrij Nederland en de uitgeverijen A.W. Bruna en WPG kindermedia.
                             </p>
 
-                <p><strong>Opdrachtgever</strong><br />Scorius</p>
+                <p><strong>Opdrachtgever</strong><br />WPG Media</p>
 
-                <p><strong>Keywords:</strong><br /> SASS, CSS3, Javascript, Typescript, HTML5, NPM, Webpack</p>
-              </article>
-
-              <article
-                className="content"
-                style={{ backgroundColor: '#fff' }}
-              >
-                <h3 style={{ float: "left" }}>Kubion</h3>
-                <img src={logoKubion} alt="logo Kubion" style={{ float: "left", paddingLeft: "10px", maxWidth: "65px" }} />
-
-                <p style={{ clear: "both" }}>
-                  Bij Kubion werkte ik aan de front-end van websites voor grote woningstichtingen.
-                  In deze opdracht werkte ik voornamelijk aan de CSS/SASS-structuur, maar schreef ik ook extra JS functionaliteit
-                  voor de verschillende templates.
-                            </p>
-
-                <p><strong>Opdrachtgever</strong><br />Kubion</p>
-
-                <p><strong>Keywords:</strong><br /> SASS, CSS3, Javascript, jQuery, HTML5, Foundation, NPM, Gulp</p>
+                <p><strong>Keywords:</strong><br /> SASS, CSS3, Javascript, HTML5, Git, NPM, Webpack, Jira, Scrum</p>
               </article>
 
               <article
@@ -163,6 +146,40 @@ export default class IndexPage extends React.Component {
                 <p><strong>Opdrachtgever</strong><br />Yourzine</p>
 
                 <p><strong>Keywords:</strong><br /> PHP, Javascript (jQuery), HTML5, CSS3 (Sass), Git, Gulp, Trello</p>
+              </article>
+
+              <article
+                className="content"
+                style={{ backgroundColor: '#fff' }}
+              >
+                <h3 style={{ float: "left" }}>Scorius</h3>
+                <img src={logoScorius} alt="logo Kubion" style={{ float: "left", paddingLeft: "10px", maxWidth: "65px" }} />
+
+                <p style={{ clear: "both" }}>
+                  Bij Scorius ben ik bezig met het redesign, refactoren en het themen van een Angular 8 webapplicatie t.b.v. een performance tool.
+                            </p>
+
+                <p><strong>Opdrachtgever</strong><br />Scorius</p>
+
+                <p><strong>Keywords:</strong><br /> SASS, CSS3, Javascript, Typescript, HTML5, NPM, Webpack</p>
+              </article>
+
+              <article
+                className="content"
+                style={{ backgroundColor: '#fff' }}
+              >
+                <h3 style={{ float: "left" }}>Kubion</h3>
+                <img src={logoKubion} alt="logo Kubion" style={{ float: "left", paddingLeft: "10px", maxWidth: "65px" }} />
+
+                <p style={{ clear: "both" }}>
+                  Bij Kubion werkte ik aan de front-end van websites voor grote woningstichtingen.
+                  In deze opdracht werkte ik voornamelijk aan de CSS/SASS-structuur, maar schreef ik ook extra JS functionaliteit
+                  voor de verschillende templates.
+                            </p>
+
+                <p><strong>Opdrachtgever</strong><br />Kubion</p>
+
+                <p><strong>Keywords:</strong><br /> SASS, CSS3, Javascript, jQuery, HTML5, Foundation, NPM, Gulp</p>
               </article>
             </div>
           </div>
